@@ -168,7 +168,7 @@ body#layout #main2{background-color:#84c0a0}
 /* CSS Fix */
 #navbar-iframe,#ContactForm1,#ContactForm1 br,.quickedit,#Attribution1 {display:none;visibility:hidden}
 .clear {clear:both;}
-.clear:after {visibility:hidden;display:block;font-size:0;content:&quot; &quot;;clear:both;height:0;}
+.clear:after {visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0;}
 header,nav,section,aside,article,footer {display:block;}
 form.searchform {margin:0;}
 .widget ul {line-height:1.4em;}
@@ -237,7 +237,7 @@ max-width:728px;}
 #nav{font-family:&#39;Roboto Condensed&#39;;font-weight:700;text-transform:uppercase;letter-spacing:.2px;background:#272b35;height:60px;line-height:60px;margin:0 auto;-webkit-box-sizing:initial;-moz-box-sizing:initial;box-sizing:initial}
 #nav2{max-width:1060px;margin:0 auto;background:#4399cd;height:60px;line-height:60px}
 .vienna-menulite {background:#4399cd;list-style:none;margin:0;float:left;}
-.vienna-menulite:before,.vienna-menulite:after {content: &quot; &quot;;display:table;}
+.vienna-menulite:before,.vienna-menulite:after {content: " ";display:table;}
 .vienna-menulite:after {clear:both;}
 .vienna-menulite a {display:block;padding:0 15px;}
 .vienna-menulite li {position:relative;margin:0;}
@@ -256,17 +256,17 @@ max-width:728px;}
 .vienna-menulite li li a {display:block;color:#666;position:relative;z-index:100;height:42px;line-height:42px;font-weight:400;text-transform:none;transition:all .3s;;}
 .vienna-menulite li li a:hover {background:#4399cd;color:#fff;}
 .vienna-menulite li li li a {z-index:20;}
-.vienna-menulite li .parent:after{content:&quot;\f107&quot;;font-family:FontAwesome;font-style:normal;font-weight:normal;text-decoration:inherit;padding-left:6px;transition:all .3s;}
-.vienna-menulite li:hover .parent:after{content:&quot;\f106&quot;;color:#fff;}
-.vienna-menulite li:hover ul li .parent:after {content: &quot;\f105&quot;;font-family:FontAwesome;font-style:normal;font-weight:normal;text-decoration:inherit;padding-left:6px;color:#4399cd;float:right;transition:all .3s;}
-.vienna-menulite li ul li .parent:hover:after {content: &quot;\f105&quot;;color:#fff;}
+.vienna-menulite li .parent:after{content:"\f107";font-family:FontAwesome;font-style:normal;font-weight:normal;text-decoration:inherit;padding-left:6px;transition:all .3s;}
+.vienna-menulite li:hover .parent:after{content:"\f106";color:#fff;}
+.vienna-menulite li:hover ul li .parent:after {content: "\f105";font-family:FontAwesome;font-style:normal;font-weight:normal;text-decoration:inherit;padding-left:6px;color:#4399cd;float:right;transition:all .3s;}
+.vienna-menulite li ul li .parent:hover:after {content: "\f105";color:#fff;}
 #search-form {float:right;margin:0 10px;width:230px;}
 #search-form table {width:100%;margin:0 0 0 0;}
 #search-form td.search-box {padding-right:30px;}
-#search-form input#search-box[type=&quot;text&quot;] {background:transparent;height:36px;line-height:36px;margin:5px 0 5px 10px;padding:0 10px;width:100%;color:#fff;border:0;font-size:95%;transition:all .5s;-webkit-box-sizing:initial;-moz-box-sizing:initial;box-sizing:initial;}
-#search-form input#search-button[type=&quot;submit&quot;]{font-family:FontAwesome;background:transparent;color:#fff;line-height:38px;padding:0 16px;border:0;outline:none;font-size:14px;transition:all .25s;-webkit-box-sizing:initial;-moz-box-sizing:initial;box-sizing:initial}
-#search-form input#search-button[type=&quot;submit&quot;]:hover{cursor:pointer;}
-#search-form input#search-box[type=&quot;text&quot;]:focus {background:#fff;color:#444;outline:none;}
+#search-form input#search-box[type="text"] {background:transparent;height:36px;line-height:36px;margin:5px 0 5px 10px;padding:0 10px;width:100%;color:#fff;border:0;font-size:95%;transition:all .5s;-webkit-box-sizing:initial;-moz-box-sizing:initial;box-sizing:initial;}
+#search-form input#search-button[type="submit"]{font-family:FontAwesome;background:transparent;color:#fff;line-height:38px;padding:0 16px;border:0;outline:none;font-size:14px;transition:all .25s;-webkit-box-sizing:initial;-moz-box-sizing:initial;box-sizing:initial}
+#search-form input#search-button[type="submit"]:hover{cursor:pointer;}
+#search-form input#search-box[type="text"]:focus {background:#fff;color:#444;outline:none;}
 
 /* CSS Post Wrapper */
 #post-wrapper {background:#fff;color:#444;float:left;width:68%;border-right:1px solid #e9e9e9;}
@@ -276,7 +276,7 @@ max-width:728px;}
 .breadcrumbs&gt;span:last-child{background:none repeat scroll 0 0 transparent;color:#333}
 .breadcrumbs a{color:#333}
 .breadcrumbs a:hover{color:#7fa8f0}
-.breadcrumbs&gt;span:before, .breadcrumbs&gt;span:after {z-index:1;content: &quot; &quot;;border:19px solid transparent;height:0;width:0;right:-26px;top:-1px;position:absolute;border-left-color:#e3e3e3;}
+.breadcrumbs&gt;span:before, .breadcrumbs&gt;span:after {z-index:1;content: " ";border:19px solid transparent;height:0;width:0;right:-26px;top:-1px;position:absolute;border-left-color:#e3e3e3;}
 .breadcrumbs&gt;span:before {border-left-color:#e9e9e9;}
 .breadcrumbs&gt;span:after {float:left;border-left-color:#fff;right:-24px;border-width:18px;top:0;}
 .post {background:#fff;margin:0;padding:20px;}
@@ -336,7 +336,7 @@ span.post-author.vcard {visibility:hidden;width:0;height:0;}
 .label-count {white-space:nowrap;display:inline-block;}
 #sidebar-wrapper .Label li{position:relative;background:#fff;color:#444;padding:0;margin:0;text-align:left;width:100%;transition:all .3s ease-out}
 #sidebar-wrapper .Label li:hover {background:#fff;color:#cf4d35;}
-#sidebar-wrapper .Label li:before {content:&quot;&quot;;position:absolute;width:0;height:100%;background:#4fafe9;transition:all .2s ease-in-out;}
+#sidebar-wrapper .Label li:before {content:"";position:absolute;width:0;height:100%;background:#4fafe9;transition:all .2s ease-in-out;}
 #sidebar-wrapper .Label li:hover:before {width:100%;}
 #sidebar-wrapper .Label li a{padding:0 0 0 20px;display:block;position:relative;line-height:42px;color:#787878;text-decoration:none;transition:all .3s ease-out}
 #sidebar-wrapper .Label li a:hover {color:#fff;}
@@ -403,8 +403,8 @@ span.post-author.vcard {visibility:hidden;width:0;height:0;}
 a.vierightcredit-social {margin:10px 5px 0 5px;}
 #search-form {width:100%;}
 #search-form td.search-box {padding-right:0;width:100%;}
-#search-form input#search-box[type=&quot;text&quot;] {background:#fff;color:#444;}
-#search-form input#search-box[type=&quot;text&quot;]:focus {background:#fff;outline:none;}}
+#search-form input#search-box[type="text"] {background:#fff;color:#444;}
+#search-form input#search-box[type="text"]:focus {background:#fff;outline:none;}}
 
 @media only screen and (max-width:768px) {
 #post-wrapper, #sidebar-wrapper {width:100%;max-width:100%}
@@ -435,14 +435,14 @@ a.vierightcredit-social {margin:10px 5px 0 5px;}
 .vienna-menulite li ul li a{background:#fafafa;color:#444;}
 .vienna-menulite li li a:hover {background:#4399cd;}
 .nav &gt; li.hover &gt; ul , .nav li li.hover ul {position:static;}
-.vienna-menulite li .parent:after,.vienna-menulite li ul li .parent:after {content: &quot;\f107&quot;;font-family:FontAwesome;font-style:normal;font-weight:normal;text-decoration:inherit;padding-right:5px;float:right;color:#fff;}
+.vienna-menulite li .parent:after,.vienna-menulite li ul li .parent:after {content: "\f107";font-family:FontAwesome;font-style:normal;font-weight:normal;text-decoration:inherit;padding-right:5px;float:right;color:#fff;}
 .vienna-menulite li:active .parent:after,.vienna-menulite li ul li:active .parent:after {color:#fff;}
 #search-form {width:100%;background:#fdfdfd;}
 #search-form td.search-box {padding:0 10px!important;}
 #search-form td.search-button {padding:0 10px;width:1%;}
-#search-form input#search-box[type=&quot;text&quot;] {margin:0;background:#fff;color:#666;}
-#search-form input#search-button[type=&quot;submit&quot;] {margin:0 0 0 -6px;}
-#search-form input#search-box[type=&quot;text&quot;]:focus {background:#fdfdfd;outline:none;}}
+#search-form input#search-box[type="text"] {margin:0;background:#fff;color:#666;}
+#search-form input#search-button[type="submit"] {margin:0 0 0 -6px;}
+#search-form input#search-box[type="text"]:focus {background:#fdfdfd;outline:none;}}
 
 @media only screen and (min-width:640px){
 #menu {display:block;}}

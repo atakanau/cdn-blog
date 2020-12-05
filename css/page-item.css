@@ -65,7 +65,7 @@ ul#related-summary li a.relinkjdulx:hover{color:#444;text-decoration:underline}
 
 /* CSS Follow by email */
 .post-body .follow-by-email-inner{position:relative;margin-top:20px;display:block;background:#ffe4ad;padding:20px;color:#908672;box-shadow:inset 0 0 0 5px #ebd099}
-.post-body .follow-by-email-inner:before{content:&quot; Never miss our latest news, subscribe here for free &quot;;display:table;font-size:16px;font-weight:400;margin:auto}
+.post-body .follow-by-email-inner:before{content:" Never miss our latest news, subscribe here for free ";display:table;font-size:16px;font-weight:400;margin:auto}
 .post-body input.follow-by-email-address{position:relative;float:right;background:#fff;color:#444;border:1px solid #ccc;border-right:0;font-size:14px;height:42px;line-height:42px;padding-left:15px;transition:all .2s}
 .post-body input.follow-by-email-address:focus {outline:none;color:#444;border-color:#ea5a50;}
 input.follow-by-email-submit{background:#ff675c;color:#fff;cursor:pointer;font-size:15px;height:42px;line-height:42px;width:80px;z-index:0;border:1px solid #ea5a50;margin-left:-2px;transition:all .2s}
@@ -114,7 +114,7 @@ input.follow-by-email-submit:hover {outline:none;background:#ea5a50;color:#fff;}
 /* CSS Comments */
 #comments{background:#fff;clear:both;margin:20px auto 0;line-height:1em;padding:20px;}
 #comments h3{display:inline-block;margin-bottom:20px;font-size:14px;position:absolute;color:#4399cd;font-weight:700;text-transform:uppercase;padding:10px 20px 10px 50px;}
-#comments h3:before {font-family:fontawesome;content:&quot;\f086&quot;;margin-right:10px;font-size:20px;padding:10px 15px;position:absolute;left:0;top:0;font-weight:normal;}
+#comments h3:before {font-family:fontawesome;content:"\f086";margin-right:10px;font-size:20px;padding:10px 15px;position:absolute;left:0;top:0;font-weight:normal;}
 #comments .click-comment{color:#4399cd;float:right;text-decoration:none;display:inline-block;font-size:14px;font-weight:700;text-transform:uppercase;padding:10px 20px}
 #comments .click-comment:hover{background:#4399cd;color:#fff}
 .comment_avatar_wrap{border-radius:10%;width:46px;height:46px;border:none;background:none;text-align:center;padding:0;overflow:hidden;}
@@ -138,7 +138,7 @@ color:#666!important;text-align:center;padding:1px 6px;opacity:0.9;transition:al
 .comment-delete:hover{color:#cf4d35!important;}
 .comment_body{margin:20px 0;padding:0;position:relative;}
 .comment_body p{line-height:1.6em;color:#666;font-size:14px;font-family:&#39;Open Sans&#39;,Helvetica,Arial,sans-serif;word-wrap:break-word;background:#fff;padding:30px 20px;position:relative;margin-top:25px;border-radius:6px;box-shadow:0 0 0 1px #ccc;transition:all .3s ease-out;}
-.comment_body p:before, .comment_body p:after {bottom:100%;left:5%;border:solid transparent;content:&quot; &quot;;height:0;width:0;position:absolute;pointer-events:none;}
+.comment_body p:before, .comment_body p:after {bottom:100%;left:5%;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none;}
 .comment_body p:after {border-color:rgba(255,255,255,0);border-bottom-color:#fff;border-width:8px;margin-left:-8px;}
 .comment_body p:before {border-color:rgba(255,225,255,0);border-bottom-color:#bbb;border-width:9px;margin-left:-9px;transition:all .3s ease-out;}
 .comment_child .comment_body p{color:#666;}
@@ -155,7 +155,7 @@ font-size:11px;margin:0;padding:2px 6px 4px 6px;border-radius:2px;border:1px sol
 .comment_form a{text-decoration:none;text-transform:uppercase;font-weight:700;font-family:Arial,Helvetica,sans-serif;font-size:15px;color:#666}
 #comment-editor{width:103%!important;background:url(&#39;//4.bp.blogspot.com/-jSUS8v5kwpQ/U8Z_6Ufr-PI/AAAAAAAAEYY/o4cQPKvt8vQ/s1600/loading.gif&#39;) no-repeat 50% 25%;position:relative;margin-left:-8px;margin-top:-15px}
 .comment-form p{position:relative;background:#fdfdfd;font-size:14px;font-family:&#39;Open Sans&#39;,Helvetica,Arial,sans-serif;line-height:1.5em;margin-bottom:20px;padding:15px;border:1px solid #ddd}
-.comment-form p:after, .comment-form p:before {top:100%;left:8%;border:solid transparent;content:&quot; &quot;;height:0;width:0;position:absolute;pointer-events:none;}
+.comment-form p:after, .comment-form p:before {top:100%;left:8%;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none;}
 .comment-form p:after {border-color:rgba(68,68,68,0);border-top-color:#fdfdfd;border-width:9px;margin-left:-9px;}
 .comment-form p:before {border-color:rgba(221,221,221,0);border-top-color:#c3c3c3;border-width:10px;margin-left:-10px;transition:all .3s ease-out;}
 .comment_reply_form{padding:0 0 0 7%}
@@ -184,7 +184,7 @@ span.small-button1 {text-align:center;}
 img.comment_emo {width:16px;height:16px;}
 
 /* CSS Simple Pre Code */
-pre{background:#443e50;white-space:pre;word-wrap:break-word;overflow:auto}pre.code{margin:20px 0;border-radius:4px;position:relative}pre.code label{font-family:sans-serif;font-weight:normal;font-size:13px;color:#83cffd;position:absolute;left:1px;top:13px;text-align:center;width:60px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;pointer-events:none}pre.code code{font-family:&quot;Inconsolata&quot;,&quot;Monaco&quot;,&quot;Consolas&quot;,&quot;Andale Mono&quot;,&quot;Bitstream Vera Sans Mono&quot;,&quot;Courier New&quot;,Courier,monospace;display:block;margin:0 0 0 60px;padding:15px 16px 14px;border-left:1px solid #645b76;overflow-x:auto;font-size:13px;line-height:19px;color:#8f8fa4}pre.code-css code,pre.code-html code,pre.code-javascript code,pre.code-jquery code{color:#8f8fa4}
+pre{background:#443e50;white-space:pre;word-wrap:break-word;overflow:auto}pre.code{margin:20px 0;border-radius:4px;position:relative}pre.code label{font-family:sans-serif;font-weight:normal;font-size:13px;color:#83cffd;position:absolute;left:1px;top:13px;text-align:center;width:60px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;pointer-events:none}pre.code code{font-family:"Inconsolata","Monaco","Consolas","Andale Mono","Bitstream Vera Sans Mono","Courier New",Courier,monospace;display:block;margin:0 0 0 60px;padding:15px 16px 14px;border-left:1px solid #645b76;overflow-x:auto;font-size:13px;line-height:19px;color:#8f8fa4}pre.code-css code,pre.code-html code,pre.code-javascript code,pre.code-jquery code{color:#8f8fa4}
 
 /* CSS Item Responsive */
 @media only screen and (max-width:960px){
