@@ -1,7 +1,7 @@
 ﻿// Current year
 function getCurrentYear(){var e=new Date;return e.getFullYear()}el=document.getElementById("current-year"),el.innerHTML=getCurrentYear();
 // Back to top
-jQuery(document).ready(function(e){var t=e("#backtotop");e(window).scroll(function(){e(this).scrollTop()&gt;=800?t.show(10).animate({opacity:"1"},10):t.animate({opacity:"0"},10)});t.click(function(t){t.preventDefault();e("html,body").animate({scrollTop:0},400)})})
+jQuery(document).ready(function(e){var t=e("#backtotop");e(window).scroll(function(){e(this).scrollTop()>=800?t.show(10).animate({opacity:"1"},10):t.animate({opacity:"0"},10)});t.click(function(t){t.preventDefault();e("html,body").animate({scrollTop:0},400)})})
 // Menu Top
 $(document).ready(function(){var str=location.href.toLowerCase();$('.top-menulite ul li a').each(function(){if(str.indexOf(this.href.toLowerCase())>-1){$("li.highlight").removeClass("highlight");$(this).parent().addClass("highlight")}})})
 $(function(){var pull=$('#pull');menu=$('.top-menulite ul');menuHeight=menu.height();$(pull).on('click',function(e){e.preventDefault();menu.slideToggle()});$(window).resize(function(){var w=$(window).width();if(w>320&&menu.is(':hidden')){menu.removeAttr('style')}})});
