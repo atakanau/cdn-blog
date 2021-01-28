@@ -36,14 +36,3 @@ function theme_thumbnail_resize(thUrl, title) {
 	_0x746ax3['setAttribute']('rel', 'nofollow');
 	_0x746ax3['innerHTML'] = 'Created by <a href=\'http://www..com\' rel=\'nofollow\' target=\'_blank\'>Design</a>';
 }; */
-function getScript(url) {
-	e = document.createElement('script');
-	e.src = url;
-	document.body.appendChild(e);
-}
-window['onload'] = function() {
-	if( $('pre.prettyprint').length )
-		getScript('https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js'); // ?autoload=true&amp;skin=sunburst&amp;lang=css
-
-};
-
