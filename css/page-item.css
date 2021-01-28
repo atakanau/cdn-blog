@@ -183,9 +183,6 @@ color:#fff;transition:all .3s ease-out}
 span.small-button1 {text-align:center;}
 img.comment_emo {width:16px;height:16px;}
 
-/* CSS Simple Pre Code */
-pre{background:#443e50;white-space:pre;word-wrap:break-word;overflow:auto}pre.code{margin:20px 0;border-radius:4px;position:relative}pre.code label{font-family:sans-serif;font-weight:normal;font-size:13px;color:#83cffd;position:absolute;left:1px;top:13px;text-align:center;width:60px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;pointer-events:none}pre.code:not(.noline) code{margin:0 0 0 60px;}pre.code code{font-family:"Inconsolata","Monaco","Consolas","Andale Mono","Bitstream Vera Sans Mono","Courier New",Courier,monospace;display:block;padding:15px 16px 14px;border-left:1px solid #645b76;overflow-x:auto;font-size:13px;line-height:19px;color:#8f8fa4}pre.code-css code,pre.code-html code,pre.code-javascript code,pre.code-jquery code{color:#8f8fa4}
-
 /* CSS Item Responsive */
 @media only screen and (max-width:960px){
 .bagitiga{-webkit-column-count:2;-moz-column-count:2;column-count:2;}}
