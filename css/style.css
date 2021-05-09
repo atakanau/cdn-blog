@@ -11,7 +11,7 @@ strong,b{font-weight:bold;padding:0;transition:color 0.2s;}
 strong,b:hover{left:-0.1em;content: '[';-webkit-transform: translateX(-100%);transform: translateX(-100%);}
 cite,em,i{font-style:italic;}
 a:link{color:#cf4d35;text-decoration:none;outline:none;transition:all 0.25s;}
-a:visited{color:#303030;text-decoration:none;}
+a:visited{color:#cf4d35;text-decoration:none;}
 a:link:hover{color:#303030;text-decoration:none;}
 a:visited:hover{color:#cf4d35;text-decoration:none;}
 a img{border:none;border-width:0;outline:none;}
