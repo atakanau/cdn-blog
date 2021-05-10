@@ -6,7 +6,7 @@ blockquote:before,.back-topnbt:before,.dropdown-togglenbt:before,.main-navigatio
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
-body,button,input,select,textarea{color:#222;font-family:"PT Serif",serif;font-size:16px;}
+body,button,input,select,textarea{color:#222;font-family:"Rambla",serif;font-size:16px;}
 body{line-height:1.6;}
 button,input,select,textarea{line-height:1.875;}
 h1,h2,h3,h4,h5,h6{clear:both;font-family:"Jockey One",serif;font-weight:bold;margin-top:0;}
@@ -298,7 +298,7 @@ a:visited{font-weight:normal;}
 .more-linknbt{white-space:nowrap;}
 
 /* Entry Header */
-.blognbt .hentry .entry-title{font-size:25px;line-height:1.2;margin:0 0 15px 0;}
+.blognbt .hentry .entry-title{font-size:25px;line-height:1.2;margin:0 0 15px 0;font-weight: normal;}
 .blognbt .hentry.type-page .entry-title{margin:0;}
 
 /* Entry Meta */
