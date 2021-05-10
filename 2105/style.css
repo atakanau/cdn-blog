@@ -9,7 +9,7 @@ blockquote:before,.back-topnbt:before,.dropdown-togglenbt:before,.main-navigatio
 body,button,input,select,textarea{color:#222;font-family:"PT Serif",serif;font-size:16px;}
 body{line-height:1.6;}
 button,input,select,textarea{line-height:1.875;}
-h1,h2,h3,h4,h5,h6{clear:both;font-family:"Playfair Display",serif;font-weight:bold;margin-top:0;}
+h1,h2,h3,h4,h5,h6{clear:both;font-family:"Jockey One",serif;font-weight:bold;margin-top:0;}
 h1{font-size:49px;line-height:1.225;margin-bottom:30px;}
 h2{font-size:39px;line-height:1.54;margin-bottom:30px;}
 h3{font-size:31px;line-height:1.452;margin-bottom:30px;}
@@ -28,7 +28,6 @@ blockquote *{margin-bottom:0;}
 blockquote blockquote{margin-left:30px;margin-top:30px;}
 blockquote cite{font-style:normal;}
 address{margin:0 0 30px;}
-code,kbd,pre,tt,var{font-family:Inconsolata,monospace;}
 pre{background:#eee;border-left:2px solid #d11415;max-width:100%;overflow:auto;padding:30px;}
 abbr,acronym{border-bottom:1px dotted #222;cursor:help;}
 mark,ins{background:#d11415;color:#fff;padding:0 0.2em;text-decoration:none;}
