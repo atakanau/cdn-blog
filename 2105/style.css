@@ -222,7 +222,7 @@ a:visited{font-weight:normal;}
 .sidebar-togglenbt.togglednbt:active,.sidebar-togglenbt.togglednbt:focus,.sidebar-togglenbt.togglednbt:hover{background:#444;border-color:#444;}
 .sidebar-togglenbt:before{content:"\f141";font-size:16px;height:43px;line-height:43px;width:43px;}
 .togglednbt.sidebar-togglenbt:before{content:"\f00d";}
-.widget-areanbt{display:none;}
+.widget-areanbt,.dnone{display:none;}
 .togglednbt.widget-areanbt{display:block;}
 
 /* Footer Widget */
