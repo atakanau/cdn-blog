@@ -520,3 +520,10 @@ h2.date-header{margin:10px 0;display:none;}
 	padding: 0 15px 0 0;
 	text-align: center;
 }
+ol[itemscope] {
+	margin: 0 0 .1em 0;
+}
+li[itemprop]{
+	display: inline list-item;
+	list-style: none;
+}
