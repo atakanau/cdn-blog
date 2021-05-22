@@ -501,6 +501,7 @@ h2.date-header{margin:10px 0;display:none;}
 .related-post-style-3 .related-post-item-title{font-weight:normal;text-decoration:none;}
 .pbtsharethisbutt{overflow:hidden;padding:5px 0 0;margin:0;text-transform:none;float:left;}
 .pbtsharethisbutt a {padding-left:5px;padding-right:5px;}
+.static_page .pbtsharethisbutt,.item .pbtsharethisbutt {float:none;}
 .separator a[style="margin-left: 1em; margin-right: 1em;"] {margin-left: auto!important;margin-right: auto!important;}
 .separator a[style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"] {clear: none !important; float: none !important; margin-bottom: 0em !important; margin-right: 0em !important;}
 .separator a[style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"] img {float: left !important; margin: 0px 10px 10px 0px;}
