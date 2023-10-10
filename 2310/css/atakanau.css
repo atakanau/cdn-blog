@@ -1,0 +1,10 @@
+﻿textarea,input {
+	padding-top: .3rem;
+	padding-bottom: .3rem;
+	padding-right: .5rem;
+	padding-left: .5rem;
+	background-color: var(--jt-archive-bg);
+	color: var(--bs-body-color);
+	border: 1px solid var(--bs-body-color);
+	border-radius: 5px;
+}
