@@ -2,7 +2,7 @@
 
 function jtCallback(){
 /*Your Script is here to maintain performance.*/
-
+Defer.css('https://cdn.jsdelivr.net/gh/atakanau/cdn-blog/2310/css/atakanau.css','css-atakanau',100);
 
 // the example below if you use url.
 // Defer.css('your_css_url','your-style-id',100);
